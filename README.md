@@ -1,5 +1,9 @@
 # KidsKu -キズク-
 
+> [!NOTE]
+> 本リポジトリは、PKSHA HACKATHON 2025で制作し、3位に入賞したチームプロジェクト「KidsKu」の個人Forkです。  
+> Fork元は [endo1322/KidsKu](https://github.com/endo1322/KidsKu) です。プロジェクトにおける私個人の担当・提案内容は、[MY_CONTRIBUTIONS.md](./MY_CONTRIBUTIONS.md) に整理しています。
+
 SNS投稿前の内容をチェックし、子どもにリスクへの「気づき」を与える見守りAIエージェントです。
 
 ## サービス概要
@@ -18,7 +22,21 @@ SNS投稿前の内容をチェックし、子どもにリスクへの「気づ�
 
 ## 使用技術
 
-本アプリは、Chrome拡張機能として動作するフロントエンドと、LangChain / LangGraph を活用した AI エージェントによるバックエンドで構成されています。
+本アプリは、Chrome拡張機能として動作するフロントエンドと、LangChain / LangGraphを活用したAIエージェントによるバックエンドで構成されています。
 
 - **フロントエンド**：HTML / CSS / JavaScript（Chrome Extension）
 - **バックエンド**：Python（LangChain / LangGraph）
+
+## 個人の担当範囲
+
+GitHub上のIssue・Pull Requestから確認できる私の担当内容、試作、機能提案は、以下に記載しています。
+
+- [MY_CONTRIBUTIONS.md](./MY_CONTRIBUTIONS.md)
+
+主な内容:
+
+- Safe判定時にXへの投稿を続行する処理の実装
+- YouTubeコメント監視への対応案・試作
+- 保護者向け機能やLLMフィードバック方針の整理
+
+> プロジェクト全体はチームで共同開発したものであり、リポジトリ内には他のメンバーが設計・実装した機能も含まれています。
