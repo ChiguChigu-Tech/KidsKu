@@ -2,6 +2,15 @@
 
 SNS投稿前の内容をチェックし、子どもにリスクへの「気づき」を与える見守りAIエージェントです。
 
+> [!NOTE]
+> 本リポジトリは、PKSHA HACKATHON 2025で制作した
+> チームプロジェクト「KidsKu」の個人Forkです。
+>
+> プロジェクトにおける私の担当範囲は、
+> [MY_CONTRIBUTIONS.md](./MY_CONTRIBUTIONS.md)
+> に記載しています。
+> 
+
 ## サービス概要
 
 [X（旧Twitter）](https://x.com/)で投稿しようとする前に、AIエージェントが投稿内容の安全性を確認します。
@@ -22,3 +31,13 @@ SNS投稿前の内容をチェックし、子どもにリスクへの「気づ�
 
 - **フロントエンド**：HTML / CSS / JavaScript（Chrome Extension）
 - **バックエンド**：Python（LangChain / LangGraph）
+
+## 実績
+
+- PKSHA HACKATHON 2025 3位入賞
+
+## 成果物・関連資料
+
+- [最終発表資料（PDF）](https://drive.google.com/file/d/1l9YF5MFiGBKen3rp4fc77tVA7T5WUXnP/view?usp=sharing)
+- [個人の担当範囲](./MY_CONTRIBUTIONS.md)
+- [Fork元リポジトリ](https://github.com/endo1322/KidsKu)
